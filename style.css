@@ -1,0 +1,158 @@
+@font-face {
+  font-family: fav;
+  src: url(Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: favthin;
+  src: url(Montserrat-Thin.ttf);
+}
+html{
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#projects{
+  font-family: fav;
+  height: 100px;
+  background: #F1EDE3;
+  height: 800px;
+}
+#project{
+  padding: 50px;
+  margin: 80px;
+  height: 150px;
+  border: dotted 1px #1A2238;
+  border-radius: .5%;
+  display: flex;
+}
+#image{
+  border: solid 1px #1A2238;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+#text{
+  border: solid 1px #1A2238;
+  height: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: 0;
+}
+#text h1{
+  color: #1A2238;
+}
+#text p{
+  font-family: favthin;
+  color: #1A2238;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-color: #1A2238;
+  background-size: cover;
+  background-position: center;
+}
+.navbar{
+  width: 100%;
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1A2238;
+  transition: all 200 ease-in-out;
+}
+.logo{
+  width: auto;
+  font-size: 25px;
+  cursor: pointer;
+  color: #123C69;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 25px;
+  font-family: monospace;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #FF6A3D;
+  text-transform: uppercase;
+  transition: 1s;
+}
+.navbar ul li a:hover{
+  text-decoration: none;
+  color: #F4DB7D;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #FF6A3D;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: .75s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+  background: #F4DB7D;
+}
+.content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-75%);
+  text-align: center;
+  color: #F1EDE3;
+}
+.content h1{
+  font-size: 70px;
+  margin-top: 80px;
+  font-family: fav;
+}
+.content p{
+  margin: 20px auto;
+  font-size: 30px;
+  font-weight: 25px;
+  font-family: favthin;
+}
+button{
+  font-family: fav;
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: 0.75s;
+}
+span{
+  background: #9DAAF2;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.75s;
+}
+button:hover span{
+  width: 100%;
+}
+button:hover{
+  color: black;
+}
