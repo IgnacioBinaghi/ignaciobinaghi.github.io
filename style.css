@@ -35,6 +35,7 @@ html{
   width: auto;
 }
 #text{
+  padding: 10px;
   border: solid 1px #1A2238;
   height: 100%;
   width: 80%;
@@ -43,10 +44,12 @@ html{
 }
 #text h1{
   color: #1A2238;
+  width: 100%;
 }
 #text p{
   font-family: favthin;
   color: #1A2238;
+  width: 100%;
 }
 .banner{
   width: 100%;
