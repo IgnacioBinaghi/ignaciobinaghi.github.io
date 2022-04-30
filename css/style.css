@@ -1,10 +1,10 @@
 @font-face {
   font-family: fav;
-  src: url(Montserrat-Regular.ttf);
+  src: url(fonts/Montserrat-Regular.ttf);
 }
 @font-face {
   font-family: favthin;
-  src: url(Montserrat-Thin.ttf);
+  src: url(fonts/Montserrat-Thin.ttf);
 }
 html{
   scroll-behavior: smooth;
@@ -73,7 +73,7 @@ html{
   width: 50%;
   position: absolute;
   left: 25%;
-  top: 60%;
+  top: 55%;
   transform: translateY(-75%);
   text-align: center;
   color: #F1EDE3;

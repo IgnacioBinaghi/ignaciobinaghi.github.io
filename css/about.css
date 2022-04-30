@@ -1,10 +1,10 @@
 @font-face {
   font-family: fav;
-  src: url(Montserrat-Regular.ttf);
+  src: url(fonts/Montserrat-Regular.ttf);
 }
 @font-face {
   font-family: favthin;
-  src: url(Montserrat-Thin.ttf);
+  src: url(fonts/Montserrat-Thin.ttf);
 }
 html{
   scroll-behavior: smooth;
