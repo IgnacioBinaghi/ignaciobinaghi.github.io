@@ -1,0 +1,77 @@
+@font-face {
+  font-family: fav;
+  src: url(Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: favthin;
+  src: url(Montserrat-Thin.ttf);
+}
+html{
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#projects_1{
+  width: 100%;
+  background-color: #1A2238;
+  height: 100vh;
+}
+.more{
+  display: flex;
+  justify-content: center;
+}
+.description1{
+  text-align: center;
+}
+.more button{
+  border: none;
+  width: 30vh;
+  height: 20vh;
+  font-size: 3vh;
+}
+.description1 a{
+  text-decoration: none;
+  color: #1A2238;
+}
+.description1 a:hover{
+  color: #1A2238;
+  font-size: 1.6vh;
+}
+
+.more button:hover{
+  font-size: 5vh;
+  color: #1A2238;
+  -webkit-text-stroke-width: .001px;
+  -webkit-text-stroke-color: #F1EDE3;
+}
+.projects_2{
+  display: flex;
+  justify-content: center;
+}
+.project_{
+    background-color: #F1EDE3;
+    border-radius: 1vh;
+    border: solid 1px black;
+    height: 60vh;
+    width: 40vh;
+    margin: 8vh;
+    margin-top: 0;
+    align-items: center;
+}
+.project_ img{
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+}
+.project_ p{
+  font-size: 1.5vh;
+  font-family: fav;
+  margin: 2vh;
+  color: #1A2238;
+}
+.project_ button{
+  margin-left: 5vh;
+  color: #1A2238;
+  border: none;
+}

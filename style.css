@@ -13,44 +13,6 @@ html{
   margin: 0;
   padding: 0;
 }
-#projects{
-  font-family: fav;
-  height: 100px;
-  background: #F1EDE3;
-  height: 800px;
-}
-#project{
-  padding: 50px;
-  margin: 80px;
-  height: 150px;
-  border: dotted 1px #1A2238;
-  border-radius: .5%;
-  display: flex;
-}
-#image{
-  border: solid 1px #1A2238;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  width: auto;
-}
-#text{
-  padding: 10px;
-  border: solid 1px #1A2238;
-  height: 100%;
-  width: 80%;
-  margin-left: auto;
-  margin-right: 0;
-}
-#text h1{
-  color: #1A2238;
-  width: 100%;
-}
-#text p{
-  font-family: favthin;
-  color: #1A2238;
-  width: 100%;
-}
 .banner{
   width: 100%;
   height: 100vh;
@@ -70,7 +32,7 @@ html{
 }
 .logo{
   width: auto;
-  font-size: 25px;
+  font-size: 25vh;
   cursor: pointer;
   color: #123C69;
 }
@@ -78,7 +40,7 @@ html{
   list-style: none;
   display: inline-block;
   margin: 0 20px;
-  font-size: 25px;
+  font-size: 3vh;
   font-family: monospace;
   position: relative;
 }
@@ -108,21 +70,22 @@ html{
   background: #F4DB7D;
 }
 .content{
-  width: 100%;
+  width: 50%;
   position: absolute;
-  top: 50%;
+  left: 25%;
+  top: 60%;
   transform: translateY(-75%);
   text-align: center;
   color: #F1EDE3;
 }
 .content h1{
-  font-size: 70px;
+  font-size: 8vh;
   margin-top: 80px;
   font-family: fav;
 }
 .content p{
   margin: 20px auto;
-  font-size: 30px;
+  font-size: 2.3vh;
   font-weight: 25px;
   font-family: favthin;
 }
@@ -159,3 +122,33 @@ button:hover span{
 button:hover{
   color: black;
 }
+footer{
+  background-color: #F1EDE3;
+  height: 100%;
+  text-align: center;
+}
+.Contact_Me button{
+  border: 0px;
+  color: #1A2238;
+  font-size: 2vh;
+}
+.Contact_Me a{
+  text-decoration: none;
+  color: #1A2238;
+}
+.Social_Media button{
+  border-radius: 50%;
+  border: solid 1px #1A2238;
+  width: 4%;
+  height: 8vh;
+}
+.hover_img {display: none;}
+.linked:hover .hover_img {display: inline-block;}
+.linked:hover .init_img {display: none;}
+.insta:hover .hover_img {display: inline-block;}
+.insta:hover .init_img {display: none;}
+.git:hover .hover_img {display: inline-block;}
+.git:hover .init_img {display: none;}
+.linked:hover{background-color: #1A2238;}
+.insta:hover{background-color: #1A2238;}
+.git:hover{background-color: #1A2238;}

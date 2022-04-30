@@ -1,0 +1,81 @@
+@font-face {
+  font-family: fav;
+  src: url(Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: favthin;
+  src: url(Montserrat-Thin.ttf);
+}
+html{
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.top_bar{
+  background-color: #1A2238;
+  display: flex;
+}
+.download_question{
+  font-family: fav;
+  color: #F1EDE3;
+  font-size: 5vh;
+  margin-top: 10vh;
+  margin-left: 30vh;
+}
+.download_button{
+  margin-top: 10vh;
+  margin-left: 70.5vh;
+}
+.download_button button{
+  background-color: #F1EDE3;
+  color: #1A2238;
+  font-size: 1.5vh;
+  border-radius: 1vh;
+}
+.download_button button:hover{
+  font-size: 2vh;
+  background-color: #1A2238;
+  color: #F1EDE3;
+}
+.resume_img{
+  background-color: #1A2238;
+  align-content: center;
+}
+.resume_img img{
+  width: 70vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer{
+  background-color: #F1EDE3;
+  height: 100%;
+  text-align: center;
+}
+.Contact_Me button{
+  border: 0px;
+  color: #1A2238;
+  font-size: 2vh;
+}
+.Contact_Me a{
+  text-decoration: none;
+  color: #1A2238;
+}
+.Social_Media button{
+  border-radius: 50%;
+  border: solid 1px #1A2238;
+  width: 4%;
+  height: 8vh;
+}
+.hover_img {display: none;}
+.linked:hover .hover_img {display: inline-block;}
+.linked:hover .init_img {display: none;}
+.insta:hover .hover_img {display: inline-block;}
+.insta:hover .init_img {display: none;}
+.git:hover .hover_img {display: inline-block;}
+.git:hover .init_img {display: none;}
+.linked:hover{background-color: #1A2238;}
+.insta:hover{background-color: #1A2238;}
+.git:hover{background-color: #1A2238;}
