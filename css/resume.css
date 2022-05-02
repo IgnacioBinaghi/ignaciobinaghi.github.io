@@ -16,6 +16,7 @@ html{
 .top_bar{
   background-color: #1A2238;
   display: flex;
+  border: solid 1px #1A2238;
 }
 .download_question{
   font-family: fav;
@@ -44,7 +45,7 @@ html{
   align-content: center;
 }
 .resume_img img{
-  width: 70vh;
+  height: 90vh;
   display: block;
   margin-left: auto;
   margin-right: auto;

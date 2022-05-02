@@ -40,7 +40,7 @@ html{
   list-style: none;
   display: inline-block;
   margin: 0 20px;
-  font-size: 3vh;
+  font-size: 2vh;
   font-family: monospace;
   position: relative;
 }
@@ -70,16 +70,14 @@ html{
   background: #F4DB7D;
 }
 .content{
-  width: 50%;
   position: absolute;
-  left: 25%;
   top: 55%;
   transform: translateY(-75%);
   text-align: center;
   color: #F1EDE3;
 }
 .content h1{
-  font-size: 8vh;
+  font-size: 5vh;
   margin-top: 80px;
   font-family: fav;
 }
@@ -91,7 +89,7 @@ html{
 }
 button{
   font-family: fav;
-  width: 200px;
+  width: 150px;
   padding: 15px 0;
   text-align: center;
   margin: 20px 10px;
@@ -139,8 +137,8 @@ footer{
 .Social_Media button{
   border-radius: 50%;
   border: solid 1px #1A2238;
-  width: 8vh;
-  height: 8vh;
+  width: 5vh;
+  height: 5vh;
 }
 .hover_img {display: none;}
 .linked:hover .hover_img {display: inline-block;}
@@ -152,3 +150,136 @@ footer{
 .linked:hover{background-color: #1A2238;}
 .insta:hover{background-color: #1A2238;}
 .git:hover{background-color: #1A2238;}
+
+#about{
+  background-color: #F1EDE3;
+  height: 90vh;
+}
+#mhm{
+  height: 6vh;
+  background-color: #F1EDE3;
+}
+.content1{
+  height: 90%;
+  width: 90%;
+  margin-left: 2.5vh;
+  background-color: rgba(72, 87, 111, 0.2);
+  border-radius: .5vh;
+  display: flex;
+}
+.about2{
+  width: 50%;
+  font-family: fav;
+}
+.about2 p{
+  color: black;
+  font-size: 1.1vh;
+  margin: 5%;
+  line-height: 180%;
+}
+.pfp_info{
+  width: 20%;
+  font-family: fav;
+}
+.pfp{
+  height: 30%;
+  padding: 0;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.pfp img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10vh;
+  margin-top: 20vh;
+}
+.info{
+  width: 20vh;
+  text-align: center;
+  height: 15vh;
+  font-size: 1.2vh;
+  margin-left: 5%;
+  margin-top: 2vh;
+}
+.info a:link{
+  color: #968D23;
+  text-decoration: none;
+}
+.info a:visited{
+  color: #968D23;
+  text-decoration: none;
+}
+.info a:hover{
+  color: black;
+}
+.mail{
+  text-align: center;
+}
+.line{
+  border: solid .5px #1A2238;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+#projects_1{
+  width: 100%;
+  background-color: #1A2238;
+  height: 100vh;
+}
+.more{
+  display: flex;
+  justify-content: center;
+}
+.description1{
+  text-align: center;
+}
+.more button{
+  border: none;
+  width: 30vh;
+  height: 20vh;
+  font-size: 3vh;
+}
+.description1 a{
+  text-decoration: none;
+  color: #1A2238;
+}
+.description1 a:hover{
+  color: #1A2238;
+  font-size: 1.6vh;
+}
+
+.more button:hover{
+  font-size: 5vh;
+  color: #1A2238;
+  -webkit-text-stroke-width: .001px;
+  -webkit-text-stroke-color: #F1EDE3;
+}
+.projects_2{
+  display: flex;
+  justify-content: center;
+}
+.project_{
+    background-color: #F1EDE3;
+    border-radius: 1vh;
+    border: solid 1px black;
+    height: 60vh;
+    width: 15vh;
+    margin: 1vh;
+    margin-top: 0;
+    align-items: center;
+}
+.project_ img{
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+}
+.project_ p{
+  font-size: 1.5vh;
+  font-family: fav;
+  margin: 1vh;
+  color: #1A2238;
+}
+.project_ button{
+  margin-left: 5vh;
+  color: #1A2238;
+  border: none;
+}
