@@ -40,8 +40,8 @@ html{
   list-style: none;
   display: inline-block;
   margin: 0 20px;
-  font-size: 3vh;
-  font-family: monospace;
+  font-size: 2vh;
+  font-family: fav;
   position: relative;
 }
 .navbar ul li a{
@@ -57,12 +57,12 @@ html{
 }
 .navbar ul li::after{
   content: '';
-  height: 3px;
+  height: 1px;
   width: 0;
   background: #FF6A3D;
   position: absolute;
   left: 0;
-  bottom: -5px;
+  bottom: 0px;
   transition: .75s;
 }
 .navbar ul li:hover::after{
