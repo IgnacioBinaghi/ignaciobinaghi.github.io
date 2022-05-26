@@ -34,11 +34,14 @@ html{
 .description1 a{
   text-decoration: none;
   color: #1A2238;
+  transition: .2s;
 }
 .description1 a:hover{
   color: #1A2238;
   font-size: 1.6vh;
+  transition: .2s;
 }
+
 
 .more button:hover{
   font-size: 5vh;
